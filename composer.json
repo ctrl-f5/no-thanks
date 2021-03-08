@@ -1,0 +1,14 @@
+{
+    "name": "ctrl-f5/no-thanks",
+    "description": "Stops symfony from displaying hardcoded advertisements in composer output.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+    },
+    "replace": {
+        "symfony/thanks":"*"
+    },
+    "autoload": {
+        "classmap": ["Thanks.php"]
+    }
+}
